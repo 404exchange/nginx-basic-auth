@@ -9,8 +9,10 @@ ENV BASIC_PASSWORD=password
 
 # Forward host and foward port as env variables
 # google.com is used as a placeholder, to be replaced using environment variables
-ENV FORWARD_HOST=google.com
-ENV FORWARD_PORT=80
+# REMOVED both of these below, as I have hardcoded the values for my specific usecase. 
+
+#ENV FORWARD_HOST=google.com
+#ENV FORWARD_PORT=80
 
 # Nginx config file
 WORKDIR /

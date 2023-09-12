@@ -5,4 +5,4 @@ Starting point for experimenting from laurentbel's Gist of the same name.
 
 Replaced in this branch with 
 
-``sudo docker run -it -p 80:80 --env BASIC_USERNAME=john.doe --env BASIC_PASSWORD=myp@ssword! --env FORWARD_HOST=54.159.222.76 --env FORWARD_PORT=443 nginx-basic-auth``
+``sudo docker run -it -p 80:80 --env BASIC_USERNAME=john.doe --env BASIC_PASSWORD=myp@ssword! nginx-basic-auth``
